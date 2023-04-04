@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Details</title>
+  </head>
+  <body>
+    <div class="container">
+      <input
+        type="text"
+        class="search"
+        name="search"
+        id="search"
+        placeholder="Search Movie Name"
+      />
+      <button id="btn">Search Movie</button>
+    </div>
+
+    <div class="heading" id="main-conteiner">
+      <h1 class="main-heading">Want the complete details of a movie?</h1>
+      <p>
+        Seach for the movies name and get complete deatils including
+        direactions, actor, IMDB rating, Votes, Earning and more intresting
+        facts.
+      </p>
+    </div>
+
+
+    
+      <div class="movie-showcase display" id="movie-details">
+        <!-- Movie Details -->
+        <div class="movie-details">
+          <h1 id="Title"></h1>
+          <p id="Language"></p>
+          <p id="plot"> </p>
+          <p id="Actors"></p>
+          <p id="Awards"></p>
+          <p id="Director"></p>
+          <p id="box-office"></p>
+          <p class="imdbrating" id="imdbrating1"></p>
+        </div>
+
+        <!-- Image Section for movie Image ShowCase -->
+        <div class="image-showcase">
+          <img
+            id="img"
+            src="https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_SX300.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+
+
+      <section class="display" id="recent-movie-section">
+        <h1 class="heading recent">Recent Searched</h1>
+        <div class="div23" id="div23">
+          
+          
+          
+          </div>
+        </div>
+      </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
