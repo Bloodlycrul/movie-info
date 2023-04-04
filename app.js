@@ -1,6 +1,6 @@
 // Select the the element using DOM models
 const container = document.getElementById("main-conteiner");
-const APIKEY = "http://www.omdbapi.com/?apikey=1cc7fdf0&t=";
+const APIKEY = "https://www.omdbapi.com/?apikey=1cc7fdf0&t=";
 let input = document.getElementById("search");
 const button = document.getElementById("btn");
 const title = document.getElementById("Title");
